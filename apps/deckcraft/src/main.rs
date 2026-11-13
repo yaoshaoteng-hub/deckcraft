@@ -297,7 +297,8 @@ fn main() -> eframe::Result {
                 app.services.displays = Some(Box::new(move || display_count(&window)));
             }
             load_prefs(&mut app);
-            app.enable_update_checks();
+            // No automatic check for a newer release at start-up: a local build would prompt on
+            // every launch. "Help > Check for Updates…" still checks on demand.
             // AutoRecover: reopen what a previous run left unsaved, then keep it current.
             if std::env::var_os("DECKCRAFT_NO_RECOVERY").is_none() {
                 app.session.recovery_dir = deckcraft_engine::recovery::default_dir();
