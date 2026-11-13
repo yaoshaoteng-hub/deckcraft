@@ -393,7 +393,10 @@ fn assert_faces_draw(h: &egui_kittest::Harness<'_, SlideApp>, text: &str, painte
 #[test]
 fn cjk_text_in_the_interface_is_drawn_with_real_glyphs() {
     let h = harness(Session::with_new());
-    assert!(h.state().ui_fonts.faces.is_empty(), "nothing to borrow for {:?}", h.state().session.active().unwrap().title());
+    // A Latin presentation borrows nothing for its content. The interface's own language-selector
+    // names ("简体中文" is always on offer) are the one deliberate exception: at most the single
+    // face that draws them is present, and only on machines that have one.
+    assert!(h.state().ui_fonts.faces.len() <= 1, "only the selector name borrows a face: {:?}", h.state().ui_fonts.faces);
 
     let mut s = Session::with_new();
     let korean = "한국어 발표 자료";

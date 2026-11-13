@@ -22,6 +22,7 @@ pub mod control;
 pub mod dialogs;
 pub mod doc_window;
 pub mod eyedropper;
+pub mod i18n;
 pub mod icons;
 pub mod media;
 pub mod menus;
@@ -74,6 +75,7 @@ pub use panels::thumbs;
 pub use ribbon::qat;
 pub use services::{DownloadFn, HostSaveFn, Inbox, InboxEvent, InboxFile, OpenAsyncFn, PickFn, ReadFn, Services, WriteFn};
 use state::{FilePlace, FilePurpose, ImeDescriptorKey, ImeDestination, ImeTerminalStamp};
+pub use i18n::Lang;
 pub use state::{RECENT_MAX, UiState, ViewMode, ZOOM_RANGE};
 
 /// The presentation (and place in it) captured when the request started.

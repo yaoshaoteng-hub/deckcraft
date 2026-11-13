@@ -141,6 +141,23 @@ mod tests {
         save(&d.join("blocked"), &ui, &prefs);
     }
 
+    /// The interface language survives a save/load round-trip, a config from before the field
+    /// existed loads as English, and an unknown code is English rather than a load failure.
+    #[test]
+    fn language_is_persisted_and_old_config_stays_english() {
+        let d = dir("lang");
+        // An older ui.json with no `lang` field still loads, in English.
+        std::fs::write(d.join(UI_FILE), r#"{"tab":"Home"}"#).unwrap();
+        assert_eq!(load(&d).0.unwrap().lang, crate::Lang::En, "missing lang defaults to English");
+        // Choosing Simplified Chinese round-trips through the settings files.
+        let ui = UiState { lang: crate::Lang::ZhHans, ..Default::default() };
+        save(&d, &ui, &Prefs::default());
+        assert_eq!(load(&d).0.unwrap().lang, crate::Lang::ZhHans, "the choice is restored");
+        // A hand-edited unknown code is English, not a rejected file.
+        std::fs::write(d.join(UI_FILE), r#"{"lang":"fr","tab":"Home"}"#).unwrap();
+        assert_eq!(load(&d).0.unwrap().lang, crate::Lang::En, "an unknown code is English");
+    }
+
     /// The window opens with the worst `ui.json` values once they are sanitized; a zoom of
     /// 10,000 % used to panic in egui and 1e30 exhausted memory at start-up.
     #[test]

@@ -1,0 +1,451 @@
+# DeckCraft interface — Simplified Chinese (简体中文).
+# Rows are `\t<source>\t<translation>`; the English source string is the lookup key.
+@id	language.name	简体中文
+	File	文件
+	Home	开始
+	Insert	插入
+	Draw	绘图
+	Design	设计
+	Transitions	切换
+	Animations	动画
+	Slide Show	幻灯片放映
+	Record	录制
+	Review	审阅
+	View	视图
+	Shape Format	形状格式
+	Picture Format	图片格式
+	Table Design	表格设计
+	Layout	布局
+	Chart Design	图表设计
+	SmartArt Design	SmartArt 设计
+	Playback	播放
+	Slide Master	幻灯片母版
+	Handout Master	讲义母版
+	Notes Master	备注母版
+	New	新建
+	Open	打开
+	Info	信息
+	Save As	另存为
+	Print	打印
+	Export	导出
+	About	关于
+	Save	保存
+	Close	关闭
+	Options	选项
+	Insert Table	插入表格
+	Slide Size	幻灯片大小
+	Size and Position	大小和位置
+	Header and Footer	页眉和页脚
+	Insert Hyperlink	插入超链接
+	Set Up Slide Show	设置放映方式
+	Zoom	缩放
+	New Comment	新建批注
+	Alt Text	替换文字
+	Slides from Outline	从大纲新建幻灯片
+	Rename Section	重命名节
+	Reuse Slides	重用幻灯片
+	Rename	重命名
+	Rename Layout	重命名版式
+	Paragraph	段落
+	Tabs	制表位
+	Font	字体
+	About DeckCraft	关于 DeckCraft
+	Preferences	首选项
+	AutoCorrect	自动更正
+	Grid Options	网格选项
+	Columns	分栏
+	Symbol	符号
+	Photo Album	相册
+	Replace Font	替换字体
+	Equation	公式
+	Date and Time	日期和时间
+	Spelling	拼写检查
+	Paste Special	选择性粘贴
+	Find and Replace	查找和替换
+	Accessibility Checker	辅助功能检查器
+	Language	语言
+	Custom Shows	自定义放映
+	Chart Data	图表数据
+	Trim Media	裁剪媒体
+	Choose a SmartArt Graphic	选择 SmartArt 图形
+	Bullets and Numbering	项目符号和编号
+	Action Settings	动作设置
+	Create New Theme Colors	新建主题颜色
+	Create New Theme Fonts	新建主题字体
+	General	常规
+	Dark appearance	深色外观
+	Interface size	界面大小
+	Measurement units:	度量单位：
+	Inches	英寸
+	Centimeters	厘米
+	Editing	编辑
+	Show smart guides	显示智能参考线
+	Snap objects to grid	对象与网格对齐
+	Replace straight quotes with smart quotes	将直引号替换为弯引号
+	AutoCorrect as you type	键入时自动更正
+	AutoCorrect Options…	自动更正选项…
+	Your name (comments):	您的姓名（批注）：
+	Interface language	界面语言
+	Done	完成
+	OK	确定
+	Cancel	取消
+	Create	创建
+	Update	更新
+	Replace	替换
+	Post	发布
+	Paste	粘贴
+	Cut	剪切
+	Copy	复制
+	Undo	撤销
+	Redo	重做
+	Format	格式刷
+	New\nSlide	新建幻灯片
+	Reset	重置
+	Section	节
+	Font size	字号
+	Bold	加粗
+	Italic	倾斜
+	Underline	下划线
+	Strikethrough	删除线
+	Font Color	字体颜色
+	Text Highlight Color	文本突出显示颜色
+	Character Spacing	字符间距
+	Change Case	更改大小写
+	Align Left	左对齐
+	Center	居中
+	Align Right	右对齐
+	Justify	两端对齐
+	Align Text	对齐文本
+	Line Spacing	行距
+	Bullets	项目符号
+	Numbering	编号
+	Decrease List Level	降低列表级别
+	Increase List Level	提高列表级别
+	Decrease Font Size	减小字号
+	Increase Font Size	增大字号
+	Clear All Formatting	清除所有格式
+	Shapes	形状
+	Text Box	文本框
+	Text\nBox	文本框
+	Arrange	排列
+	Quick\nStyles	快速样式
+	Shape Fill	形状填充
+	Shape Outline	形状轮廓
+	Shape Effects	形状效果
+	Find	查找
+	Selection\nPane	选择窗格
+	Selection Pane	选择窗格
+	Selection Pane…	选择窗格…
+	Design\nIdeas	设计灵感
+	Design Ideas	设计灵感
+	Picture	图片
+	Pictures	图片
+	Table	表格
+	Insert Table…	插入表格…
+	Draw Table	绘制表格
+	Insert\nAbove	在上方插入
+	Insert\nBelow	在下方插入
+	Insert\nLeft	在左侧插入
+	Insert\nRight	在右侧插入
+	Delete Rows	删除行
+	Delete Columns	删除列
+	Delete Table	删除表格
+	Merge\nCells	合并单元格
+	Split\nCells	拆分单元格
+	Header Row	标题行
+	Total Row	汇总行
+	Banded Rows	镶边行
+	First Column	首列
+	Last Column	末列
+	Banded Columns	镶边列
+	Insert Picture	插入图片
+	Photo\nAlbum	相册
+	New Photo Album…	新建相册…
+	Edit Photo Album…	编辑相册…
+	Chart	图表
+	SmartArt	SmartArt
+	Icons	图标
+	Action	动作按钮
+	Action Settings…	动作设置…
+	Header	页眉
+	Footer	页脚
+	Header &\nFooter	页眉和页脚
+	Slide Number	幻灯片编号
+	Slide\nNumber	幻灯片编号
+	Date &\nTime	日期和时间
+	WordArt	艺术字
+	Screenshot	屏幕截图
+	Audio	音频
+	Video	视频
+	Media	媒体
+	Pencil	铅笔
+	Red Pen	红色笔
+	Blue Pen	蓝色笔
+	Black Pen	黑色笔
+	Highlighter	荧光笔
+	Eraser	橡皮擦
+	Ink to Shape	墨迹转形状
+	Ink to\nShape	墨迹转形状
+	Ink to Text	墨迹转文本
+	Ink to\nText	墨迹转文本
+	Ink to Math	墨迹转公式
+	Ink to\nMath	墨迹转公式
+	Themes	主题
+	Background\nStyles	背景样式
+	Customize Colors…	自定义颜色…
+	Customize Fonts…	自定义字体…
+	Browse for Themes…	浏览主题…
+	Format\nBackground	设置背景格式
+	Colors	颜色
+	Fonts	字体
+	Preview	预览
+	Effect\nOptions	效果选项
+	Effect Options	效果选项
+	Apply\nTo All	应用到全部
+	Duration	持续时间
+	Duration:	持续时间：
+	Delay	延迟
+	Delay:	延迟：
+	Sound:	声音：
+	Loop until Stopped	循环直到停止
+	Add Animation	添加动画
+	Add\nAnimation	添加动画
+	Animation\nPane	动画窗格
+	Animation\nPainter	动画刷
+	Start	开始
+	Start:	开始：
+	On Click	单击时
+	On Mouse Click	鼠标单击时
+	With Previous	与上一动画同时
+	After Previous	上一动画之后
+	After	之后
+	After:	之后：
+	Trigger	触发器
+	From\nBeginning	从头开始
+	From Beginning	从头开始
+	Start from Beginning	从头开始
+	From\nCurrent Slide	从当前幻灯片开始
+	From Current Slide	从当前幻灯片开始
+	Presenter\nView	演示者视图
+	Custom\nShow	自定义放映
+	Set Up\nSlide Show	设置放映方式
+	Hide\nSlide	隐藏幻灯片
+	Rehearse\nTimings	排练计时
+	Use Timings	使用计时
+	Play Narrations	播放旁白
+	Play from\nStart	从头开始
+	Play from\nCurrent Slide	从当前幻灯片开始
+	Play	播放
+	Show Media Controls	显示媒体控件
+	Thesaurus	同义词库
+	Translate	翻译
+	New\nComment	新建批注
+	Show\nComments	显示批注
+	Comments	批注
+	Comment	批注
+	Compare	比较
+	End\nReview	结束审阅
+	Check\nAccessibility	检查辅助功能
+	Reading\nView	阅读视图
+	Slide\nSorter	幻灯片浏览
+	Outline\nView	大纲视图
+	Slide\nMaster	幻灯片母版
+	Handout\nMaster	讲义母版
+	Notes\nMaster	备注母版
+	Notes\nPage	备注页
+	Gridlines	网格线
+	Guides	参考线
+	Ruler	标尺
+	Fit to\nWindow	适应窗口大小
+	Fit	适应
+	Zoom In	放大
+	Zoom Out	缩小
+	Dark\nMode	深色模式
+	New\nWindow	新建窗口
+	Shape\nStyles	形状样式
+	Edit\nShape	编辑形状
+	Edit Shape	编辑形状
+	Change Shape	更改形状
+	Edit Points	编辑顶点
+	Insert\nPlaceholder	插入占位符
+	Insert Placeholder	插入占位符
+	Merge\nShapes	合并形状
+	Merge Shapes	合并形状
+	Group	组合
+	Regroup	重新组合
+	Ungroup	取消组合
+	Group Objects	组合对象
+	Bring Forward	上移一层
+	Bring\nForward	上移一层
+	Send Backward	下移一层
+	Send\nBackward	下移一层
+	Bring to Front	置于顶层
+	Send to Back	置于底层
+	Align	对齐
+	Align Center	水平居中
+	Align Top	顶端对齐
+	Align Middle	垂直居中
+	Align Bottom	底端对齐
+	Distribute Horizontally	横向分布
+	Distribute Vertically	纵向分布
+	Distribute Columns	横向分布
+	Distribute Rows	纵向分布
+	Align Selected Objects	对齐所选对象
+	Align to Slide	对齐幻灯片
+	Rotate	旋转
+	Rotate Right 90°	向右旋转 90°
+	Rotate Left 90°	向左旋转 90°
+	Flip Vertical	垂直翻转
+	Flip Horizontal	水平翻转
+	Position Objects	定位对象
+	Order Objects	排列对象
+	Remove\nBackground	删除背景
+	Remove Background	删除背景
+	Corrections	更正
+	Color	颜色
+	Artistic\nEffects	艺术效果
+	Compress Pictures	压缩图片
+	Compress	压缩
+	Change Picture	更改图片
+	Reset Picture	重置图片
+	Picture Border	图片边框
+	Crop	裁剪
+	Crop to Shape	裁剪为形状
+	Alt\nText	替换文字
+	Borders	框线
+	Bottom Border	下框线
+	Top Border	上框线
+	Left Border	左框线
+	Right Border	右框线
+	No Border	无框线
+	All Borders	所有框线
+	Outside Borders	外部框线
+	Inside Borders	内部框线
+	Inside Horizontal Border	内部横框线
+	Inside Vertical Border	内部竖框线
+	Diagonal Down Border	斜下框线
+	Diagonal Up Border	斜上框线
+	Shading	底纹
+	Table Eraser	表格橡皮擦
+	Change\nChart Type	更改图表类型
+	Edit\nData	编辑数据
+	SmartArt Styles	SmartArt 样式
+	Change Colors	更改颜色
+	Convert to Shapes	转换为形状
+	Convert to Text	转换为文本
+	Convert to SmartArt	转换为 SmartArt
+	Convert	转换
+	Add Shape	添加形状
+	Add Shape After	在后方添加形状
+	Add Shape Before	在前方添加形状
+	Add Shape Above	在上方添加形状
+	Add Shape Below	在下方添加形状
+	Promote	升级
+	Demote	降级
+	Text\nPane	文本窗格
+	Play Across Slides	跨幻灯片播放
+	Loop Until Next Sound	循环直到下一个声音
+	Rewind after Playing	播放后倒带
+	Hide During Show	放映时隐藏
+	Volume	音量
+	Mute	静音
+	Trim	裁剪
+	Play Full Screen	全屏播放
+	More Colors…	更多颜色…
+	Theme Colors	主题颜色
+	Standard Colors	标准颜色
+	Eyedropper	取色器
+	No Color	无颜色
+	No Fill	无填充
+	No Outline	无轮廓
+	No Shadow	无阴影
+	No Glow	无发光
+	No Reflection	无映像
+	No Soft Edges	无柔化边缘
+	No Recolor	无重新着色
+	No Transform	无转换
+	None	无
+	Solid	实线
+	Dashes	虚线
+	Dash	划线
+	Dot	点
+	Long Dash	长划线
+	Dash Dot	划线-点
+	Long Dash Dot	长划线-点
+	Weight	粗细
+	Arrows	箭头
+	Arrow at start	起始端箭头
+	Arrow at end	末端箭头
+	Arrows at both ends	两端箭头
+	Glow	发光
+	Reflection	映像
+	Soft Edges	柔化边缘
+	Shadow	阴影
+	Bevel	棱台
+	3-D Rotation	三维旋转
+	Reset Style	重置样式
+	More Picture Styles	更多图片样式
+	Reset to Defaults	重置为默认值
+	Reset Crop	重置裁剪
+	Reset Slide Background	重置幻灯片背景
+	Transparency	透明度
+	Grayscale	灰度
+	Recolor	重新着色
+	Set Transparent Color	设置透明色
+	Resolution	分辨率
+	Change	更改
+	Apply	应用
+	Link	链接
+	Select	选择
+	Delete	删除
+	Duplicate Selected Slides	复制所选幻灯片
+	Add Section	添加节
+	Remove All Sections	删除所有节
+	Paste Formatting	粘贴格式
+	Paste and Match Formatting	粘贴并匹配格式
+	Line Spacing Options…	行距选项…
+	Paragraph…	段落…
+	Font…	字体…
+	Tabs…	制表位…
+	Bullets and Numbering…	项目符号和编号…
+	Page Number	页码
+	Date	日期
+	Time	时间
+	Start Automatically	自动开始
+	Emphasis	强调
+	Entrance	进入
+	Exit	退出
+	Motion Paths	动作路径
+	Motion	动作路径
+	By Paragraph	按段落
+	As One Object	作为一个对象
+	Effect	效果
+	Effects	效果
+	Add Effect	添加效果
+	Format Shape…	设置形状格式…
+	Format Pane	格式窗格
+	Format\nPane	格式窗格
+	Edit	编辑
+	Text	文本
+	Body	正文
+	Title	标题
+	Content	内容
+	Insert\nLayout	插入版式
+	Insert Layout	插入版式
+	Delete Layout	删除版式
+	Duplicate Layout	复制版式
+	Close\nMaster View	关闭母版视图
+	Close Master View	关闭母版视图
+	Widescreen (16:9)	宽屏 (16:9)
+	Standard (4:3)	标准 (4:3)
+	Custom Slide Size…	自定义幻灯片大小…
+	Page Setup…	页面设置…
+	Next	下一个
+	Previous	上一个
+	Pause	暂停
+	Stop	停止
+	Search icons	搜索图标
+	Search	搜索
+	Add Assistant	添加助手
+	Learn\nMore	了解更多
+	Learn More	了解更多

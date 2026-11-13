@@ -132,3 +132,20 @@ fn options_close_button_restores_the_settings() {
     assert_eq!(h.state().session.prefs.smart_guides, was, "the close button restores the setting");
     assert!(h.state().dialog.is_none(), "and the dialog closes");
 }
+
+/// Choosing Simplified Chinese relabels the dialog at once, and Cancel puts English back.
+#[test]
+fn options_language_applies_immediately_and_cancel_restores_it() {
+    let mut h = harness();
+    assert_eq!(h.state().ui.lang, crate::Lang::En, "English by default");
+    open_options(&mut h);
+
+    h.query_by_label("简体中文").expect("the language choice is there").click();
+    h.run_steps(2);
+    assert_eq!(h.state().ui.lang, crate::Lang::ZhHans, "the language applies as it is chosen");
+    // The dialog now renders in Chinese, so its Cancel button is 取消.
+    h.query_by_label("取消").expect("the dialog relabelled into Chinese").click();
+    h.run_steps(2);
+    assert_eq!(h.state().ui.lang, crate::Lang::En, "Cancel restores English");
+    assert!(h.state().dialog.is_none(), "and the dialog closes");
+}

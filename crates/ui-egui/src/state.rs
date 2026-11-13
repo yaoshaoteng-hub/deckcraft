@@ -1,4 +1,4 @@
-use super::{Deserialize, LayoutId, MasterId, Serialize, SlideId, Target, qat, theme};
+use super::{Deserialize, Lang, LayoutId, MasterId, Serialize, SlideId, Target, qat, theme};
 
 /// The operation the user asked for. Kept with the request so a late completion does not
 /// guess a command from the file name.
@@ -51,6 +51,9 @@ pub enum ViewMode {
 #[serde(default, rename_all = "camelCase")]
 pub struct UiState {
     pub brightness: theme::Brightness,
+    /// The interface language (Preferences ▸ Language). English by default; a missing or unknown
+    /// value in an older `ui.json` also loads as English.
+    pub lang: Lang,
     pub tab: String,
     pub ribbon_collapsed: bool,
     pub view: ViewMode,
@@ -100,6 +103,7 @@ impl Default for UiState {
     fn default() -> Self {
         UiState {
             brightness: theme::Brightness::Light,
+            lang: Lang::En,
             tab: "Home".into(),
             ribbon_collapsed: false,
             view: ViewMode::Normal,

@@ -27,6 +27,9 @@ impl SlideApp {
         if let Some(st) = self.session.active() {
             self.ui_fonts.note_doc(ctx, st);
         }
+        // The interface's own labels: the interface faces lack Simplified Chinese glyphs, so the
+        // selector's names and (in another language) the translated strings borrow a face here.
+        self.ui_fonts.note(ctx, crate::i18n::interface_text(self.ui.lang));
         self.ui_fonts.apply(ctx);
     }
 
